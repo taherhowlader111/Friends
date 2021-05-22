@@ -14,7 +14,7 @@ class InformationDetailsViewController: UIViewController {
     var frienfList: Result?
     
     
-    var settingsMenuDataSource: [(title: String, imageName: String, identifier: String)] = [("Full Name","name", identifier: "name"),("Gmail","gmail", identifier: "gmail"),("Date of Birth","dob", identifier: "dob"),("Address","address", identifier: "address"),("Phone","phone", identifier: "phone")]
+    var settingsMenuDataSource: [(title: String, imageName: String, identifier: String)] = [("Full Name","Person", identifier: "name"),("Gmail","Email", identifier: "gmail"),("Date of Birth","Calendar", identifier: "dob"),("Address","Address", identifier: "address"),("Phone","Contact", identifier: "phone")]
     
     override func viewDidLoad() {
         super.viewDidLoad()

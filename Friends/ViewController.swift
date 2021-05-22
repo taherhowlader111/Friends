@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.title = "Friend List"
         CollectionView.dataSource = self
         CollectionView.delegate = self
         getRequest()

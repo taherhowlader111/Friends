@@ -64,7 +64,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
         
         let item =  self.frienfList[indexPath.row]
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FriendsListCollectionViewCell", for: indexPath) as! FriendsListCollectionViewCell
-        cell.friendsFullName.text = item.name?.first
+        var  title:String = item.name?.title ?? ""
+        var firstName:String = item.name?.first ?? ""
+        var lastName:String = item.name?.last ?? ""
+        cell.friendsFullName.text = "\(title) \(firstName) \(lastName)"
         cell.friendsCountry.text = item.location?.country
         if let photo = item.picture?.thumbnail {
             cell.friendsPhoto.downloaded(from: photo)

@@ -66,12 +66,12 @@
 				CE4BFB8826576C00004CB095 /* SceneDelegate.swift */,
 				CE4BFB8A26576C00004CB095 /* ViewController.swift */,
 				CE4BFBC6265794CE004CB095 /* InformationDetailsViewController.swift */,
+				CE4BFB9E26576C25004CB095 /* FriendsModel.swift */,
 				CE4BFB8C26576C00004CB095 /* Main.storyboard */,
 				CE4BFB9226576C02004CB095 /* Assets.xcassets */,
 				CE4BFB9426576C02004CB095 /* LaunchScreen.storyboard */,
 				CE4BFB9726576C02004CB095 /* Info.plist */,
 				CE4BFB8F26576C00004CB095 /* Friends.xcdatamodeld */,
-				CE4BFB9E26576C25004CB095 /* FriendsModel.swift */,
 			);
 			path = Friends;
 			sourceTree = "<group>";

@@ -9,7 +9,8 @@ import UIKit
 
 class InformationDetailsViewController: UIViewController {
     @IBOutlet weak var friendsImage: UIImageView!
-    @IBOutlet weak var friendsInformatios: UILabel!
+    @IBOutlet weak var friendsInformations: UILabel!
+    @IBOutlet weak var friendsInformation2: UILabel!
     @IBOutlet weak var DetailsCollectionView: UICollectionView!
     var frienfList: Result?
     
@@ -31,10 +32,13 @@ class InformationDetailsViewController: UIViewController {
         let item2 = settingsMenuDataSource [indexPath.row]
        
         if item2.identifier == "name"{
-            friendsInformatios.text =  item?.name?.first
+            var  title:String = item?.name?.title ?? ""
+            var firstName:String = item?.name?.first ?? ""
+            var lastName:String = item?.name?.last ?? ""
+            friendsInformations.text = "\(title) \(firstName) \(lastName)"
         }
         if item2.identifier == "gmail"{
-            friendsInformatios.text = item?.email
+            friendsInformations.text = item?.email
             if let email = item?.email{
                 let appURL = URL(string: "mailto:\(email)")!
 
@@ -47,13 +51,17 @@ class InformationDetailsViewController: UIViewController {
            
         }
         if item2.identifier == "dob"{
-            friendsInformatios.text = item?.dob?.date
+            friendsInformations.text = item?.dob?.date
         }
         if item2.identifier == "address"{
-            friendsInformatios.text = item?.location?.country
+            var  friendsCity:String = item?.location?.city ?? ""
+            var friendsState:String = item?.location?.state ?? ""
+            var friendsCountry:String = item?.location?.country ?? ""
+            friendsInformations.text = "\(friendsCity) \(friendsState) \(friendsCountry) "
+           
         }
         if item2.identifier == "phone"{
-            friendsInformatios.text = item?.phone
+            friendsInformations.text = item?.phone
         }
         
     }

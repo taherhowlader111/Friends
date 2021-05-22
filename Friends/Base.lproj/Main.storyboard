@@ -356,7 +356,8 @@
                     <connections>
                         <outlet property="DetailsCollectionView" destination="Ltb-cN-xzh" id="Ofo-ih-hkd"/>
                         <outlet property="friendsImage" destination="vz8-Zm-Apl" id="dEF-lA-2Yj"/>
-                        <outlet property="friendsInformatios" destination="4i1-gK-IgC" id="J9M-Qr-Xki"/>
+                        <outlet property="friendsInformation2" destination="UCy-Dr-Jzo" id="b3u-PC-S6w"/>
+                        <outlet property="friendsInformations" destination="4i1-gK-IgC" id="tD6-a1-rWV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ShZ-r2-0yu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

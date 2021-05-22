@@ -19,7 +19,8 @@ class InformationDetailsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Friend deatils List"
+        self.title = "Friend Deatils List"
+        friendsInformations.text = "Please select for details information"
         if let photo = frienfList?.picture?.large {
             friendsImage.downloaded(from: photo)
         }

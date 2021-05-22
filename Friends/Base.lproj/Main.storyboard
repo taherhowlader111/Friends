@@ -194,7 +194,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Faw-iV-8fO">
-                                        <rect key="frame" x="0.0" y="320" width="414" height="478"/>
+                                        <rect key="frame" x="0.0" y="300" width="414" height="498"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BYx-Z2-0kA">
                                                 <rect key="frame" x="20" y="0.0" width="374" height="40"/>
@@ -235,7 +235,7 @@
                                                 </constraints>
                                             </view>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ltb-cN-xzh">
-                                                <rect key="frame" x="20" y="135" width="374" height="343"/>
+                                                <rect key="frame" x="20" y="135" width="374" height="363"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="uIr-vy-VP8">
                                                     <size key="itemSize" width="90" height="90"/>
@@ -336,7 +336,7 @@
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Faw-iV-8fO" secondAttribute="trailing" id="3Pe-L5-2ha"/>
                                     <constraint firstAttribute="bottom" secondItem="Faw-iV-8fO" secondAttribute="bottom" constant="20" id="6pB-0C-iv2"/>
-                                    <constraint firstItem="Faw-iV-8fO" firstAttribute="top" secondItem="Fbe-4n-TFT" secondAttribute="bottom" constant="20" id="9Zv-u4-NZH"/>
+                                    <constraint firstItem="Faw-iV-8fO" firstAttribute="top" secondItem="Fbe-4n-TFT" secondAttribute="bottom" id="9Zv-u4-NZH"/>
                                     <constraint firstItem="Fbe-4n-TFT" firstAttribute="top" secondItem="Zwa-Q5-xFz" secondAttribute="top" id="EI7-lj-bHV"/>
                                     <constraint firstItem="Faw-iV-8fO" firstAttribute="leading" secondItem="Zwa-Q5-xFz" secondAttribute="leading" id="Qkd-hn-ox4"/>
                                     <constraint firstItem="Fbe-4n-TFT" firstAttribute="leading" secondItem="Zwa-Q5-xFz" secondAttribute="leading" id="UDQ-R7-Q4U"/>
